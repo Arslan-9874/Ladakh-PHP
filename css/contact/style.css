@@ -1,0 +1,87 @@
+*
+{
+    scroll-behavior: smooth;
+}
+
+#mainContainer {
+    min-height: 82.9vh;
+}
+
+.inputCard {
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.2);
+
+}
+
+.inputCard input {
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
+    outline: none;
+}
+
+#country select{
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+#genderSelect
+{
+    width: 90%;
+}
+
+@media (max-width: 991px)
+{
+    #C-cards
+    {
+        flex-direction: column;
+    }
+    #add-Card
+    {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 770px)
+{
+    #rowContainer
+    {
+        flex-direction: column;
+    }
+
+    #rowContainer div 
+    {
+        width: 100%;
+    }
+
+    
+}
+@media (max-width: 410px)
+{
+    div
+    {
+        overflow: hidden !important;
+    }
+
+    #genderSelect
+    {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 410px)
+{
+    .inputCard input
+    {
+        font-size: 1rem !important;
+    }
+    #genderSelect label
+    {
+        font-size: 0.8rem !important;
+    } 
+    #country select
+    {
+        font-size: 1rem !important;
+    }
+}
