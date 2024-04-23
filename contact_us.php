@@ -30,7 +30,7 @@
     }
     if (isset($_GET['query']) and $_GET['query'] == 'wrong') {
         echo '<div class="alert alert-warning alert-dismissible fade show mx-5" role="alert">
-        <strong>Something Went Wrong!</strong> Something Went Wrong, please try again later.
+        <strong>Error!</strong> Something Went Wrong, please try again later.
         <a href="contact_us.php"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></a>
       </div>';
     }
