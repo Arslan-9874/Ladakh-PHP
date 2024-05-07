@@ -18,7 +18,7 @@
             <a class="nav-link fw-semibold" aria-current="page" href="index.php#galleryContainer">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold" aria-current="page" href="contact_us.php">Contact Us</a>
+            <a class="nav-link fw-semibold" aria-current="page" href="contact_us.php">Registration</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-semibold" aria-current="page" href="admin_login.php">Admin</a>

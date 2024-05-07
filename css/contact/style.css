@@ -1,5 +1,4 @@
-*
-{
+* {
     scroll-behavior: smooth;
 }
 
@@ -20,68 +19,69 @@
     outline: none;
 }
 
-#country select{
+#country select {
     border: none;
     outline: none;
     background-color: rgba(128, 128, 128, 0);
 }
 
-#genderSelect
-{
+#bike select {
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0);
+
+}
+
+#genderSelect {
     width: 90%;
 }
 
-@media (max-width: 991px)
-{
-    #C-cards
-    {
+@media (max-width: 991px) {
+    #C-cards {
         flex-direction: column;
     }
-    #add-Card
-    {
+
+    #add-Card {
         margin-bottom: 1rem !important;
     }
 }
 
-@media (max-width: 770px)
-{
-    #rowContainer
-    {
+@media (max-width: 770px) {
+    #rowContainer {
         flex-direction: column;
     }
 
-    #rowContainer div 
-    {
+    #rowContainer div {
         width: 100%;
     }
 
-    
+
 }
-@media (max-width: 410px)
-{
-    div
-    {
+
+@media (max-width: 410px) {
+    div {
         overflow: hidden !important;
     }
 
-    #genderSelect
-    {
+    #genderSelect {
         font-size: 1rem !important;
     }
 }
 
-@media (max-width: 410px)
-{
-    .inputCard input
-    {
+@media (max-width: 410px) {
+    .inputCard input {
         font-size: 1rem !important;
     }
-    #genderSelect label
-    {
+
+    #genderSelect label {
         font-size: 0.8rem !important;
-    } 
-    #country select
-    {
+    }
+
+    #country select {
+        font-size: 1rem !important;
+    }
+
+    #bike select {
         font-size: 1rem !important;
     }
 }

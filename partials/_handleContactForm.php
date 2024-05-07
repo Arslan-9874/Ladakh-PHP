@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $gender = $_POST['gender'];
     $country = $_POST['country'];
+    $bike = $_POST['bike'];
 
     $name = str_replace("<", "&lt;", $name);
     $name = str_replace(">", "&gt;", $name);
@@ -15,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = str_replace("<", "&lt;", $email);
     $email = str_replace(">", "&gt;", $email);
 
-    $sql = "INSERT INTO `user_details`(`name`, `phone`, `email`, `gender`, `country`) VALUES ('$name','$number','$email','$gender','$country')";
+    $sql = "INSERT INTO `user_details`(`name`, `phone`, `email`, `gender`, `country`, `bike`) VALUES ('$name','$number','$email','$gender','$country', '$bike')";
     $result = mysqli_query($conn, $sql);
 
     if($result)

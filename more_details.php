@@ -46,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <p class="m-0 fs-5 fw-semibold my-2">Email:</p>
                     <p class="m-0 fs-5 fw-semibold my-2">Gender:</p>
                     <p class="m-0 fs-5 fw-semibold my-2">Country:</p>
+                    <p class="m-0 fs-5 fw-semibold my-2">Preferred Bike:</p>
                 </div>
                 <div class="container">
                     <?php
@@ -60,7 +61,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <p class="m-0 fs-5 my-2">' . $row['phone'] . '</p>
                             <p class="m-0 fs-5 my-2">' . $row['email'] . '</p>
                             <p class="m-0 fs-5 my-2 text-capitalize">' . $row['gender'] . '</p>
-                            <p class="m-0 fs-5 my-2 text-capitalize">' . $row['country'] . '</p>';
+                            <p class="m-0 fs-5 my-2 text-capitalize">' . $row['country'] . '</p>
+                            <p class="m-0 fs-5 my-2 text-capitalize">' . $row['bike'] . '</p>';
                         }
                     }
                     ?>

@@ -40,19 +40,23 @@
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h2 class="text-center fw-bold py-4 bg-dark rounded-4 text-light" style="width: 80%;">CONTACT US</h2>
             <div class="d-flex justify-content-center text-center" id="C-cards" style="width: 80%;">
-                <div class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
+                <div
+                    class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
                     <p class="p-0 m-0 fs-3">Phone: </p>
                     <p class="p-0 m-0 fs-5">xxxxxxxxxx</p>
                 </div>
-                <div class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
+                <div
+                    class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
                     <p class="p-0 m-0  fs-3">Email: </p>
                     <p class="p-0 m-0 fs-5">xxxxx@gmail.com</p>
                 </div>
-                <div class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
+                <div
+                    class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center">
                     <p class="p-0 m-0  fs-3">instagram: </p>
                     <p class="p-0 m-0 fs-5">@xxxxxx</p>
                 </div>
-                <div class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center" id="add-Card">
+                <div class="shadow rounded-4 p-4 px-5 mx-2 mt-3 d-flex flex-column align-items-center justify-content-center"
+                    id="add-Card">
                     <p class="p-0 m-0  fs-3">Address: </p>
                     <p class="p-0 m-0 fs-5">xxxxx, India</p>
                 </div>
@@ -62,19 +66,20 @@
     <div id="mainContainer" class="container rounded-4 my-4 shadow">
         <form action="partials/_handleContactForm.php" method="post"
             class="d-flex flex-column justify-content-center align-items-center">
-            <h2 class="text-center fw-bold py-4 mt-5 bg-dark rounded-4 text-light" style="width: 80%;">CONTACT FORM</h2>
+            <h2 class="text-center fw-bold py-4 mt-5 bg-dark rounded-4 text-light" style="width: 80%;">REGISTRATION FORM
+            </h2>
             <div class="inputCard p-3 rounded-4 shadow-sm mt-2">
-                <label class="d-block fs-6 ps-1" for="name">Full Name:</label>
+                <label class="d-block fs-5 ps-1" for="name">Full Name:</label>
                 <input type="text" class="d-block fs-4" name="name" id="name" placeholder="Enter your name"
                     style="width: 100%" required>
             </div>
             <div class="inputCard p-3 rounded-4 shadow-sm mt-4">
-                <label class="d-block fs-6 ps-1" for="phone">Phone Number:</label>
+                <label class="d-block fs-5 ps-1" for="phone">Phone Number:</label>
                 <input type="tel" class="d-block fs-4" pattern="[0-9]{10}" maxlength="10" name="phone" id="phone"
                     style="width: 100%" placeholder="Enter your phone number" required>
             </div>
             <div class="inputCard p-3 rounded-4 shadow-sm mt-4">
-                <label class="d-block fs-6 ps-1" for="email">Email:</label>
+                <label class="d-block fs-5 ps-1" for="email">Email:</label>
                 <input type="email" class="d-block fs-4" name="email" id="email" placeholder="Enter your Email"
                     style="width: 100%" required>
             </div>
@@ -365,6 +370,21 @@
                     </div>
                 </div>
             </div>
+            <div class="inputCard p-3 rounded-4 shadow-sm mt-4">
+                <label class="d-block fs-5 ps-1" for="bike">Bike:</label>
+                <div id="bike">
+                    <select class="form-select fs-5 text-secondary mt-2" name="bike" id="bike" required>
+                        <option disabled selected value> - Select Your Prefered Bike - </option>
+                        <option value="Royal Enfield Himalayan">Royal Enfield Himalayan</option>
+                        <option value="Royal Enfield Classic 350">Royal Enfield Classic 350</option>
+                        <option value="Hero XPulse 200 4V">Hero XPulse 200 4V</option>
+                        <option value="KTM Adventure 390">KTM Adventure 390</option>
+                        <option value="BMW G310 GS">BMW G310 GS</option>
+                        <option value="TVS NTORQ 125">TVS NTORQ 125</option>
+                    </select>
+                </div>
+            </div>
+
 
             <button type="submit" class="btn btn-primary my-4 fs-4 px-5">Submit</button>
         </form>
