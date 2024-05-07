@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 20, 2024 at 12:31 PM
+-- Generation Time: May 07, 2024 at 02:48 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -34,6 +34,7 @@ CREATE TABLE `user_details` (
   `email` varchar(255) NOT NULL,
   `gender` varchar(10) NOT NULL,
   `country` varchar(80) NOT NULL,
+  `bike` varchar(50) NOT NULL,
   `timestamp` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -41,9 +42,8 @@ CREATE TABLE `user_details` (
 -- Dumping data for table `user_details`
 --
 
-INSERT INTO `user_details` (`sno`, `name`, `phone`, `email`, `gender`, `country`, `timestamp`) VALUES
-(8, 'Arslan khan', '8085694237', 'arslankhan9874@gmail.com', 'male', 'India', '2024-04-19 17:48:03'),
-(9, 'kaneki', '0123456789', 'admin@gmail.com', 'male', 'Oman', '2024-04-19 17:48:38');
+INSERT INTO `user_details` (`sno`, `name`, `phone`, `email`, `gender`, `country`, `bike`, `timestamp`) VALUES
+(13, 'Arslan khan', '8085694237', 'arslankhan9874@gmail.com', 'male', 'India', 'KTM Adventure 390', '2024-05-07 18:15:10');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +63,7 @@ ALTER TABLE `user_details`
 -- AUTO_INCREMENT for table `user_details`
 --
 ALTER TABLE `user_details`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
