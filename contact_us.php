@@ -61,6 +61,8 @@
                     <p class="p-0 m-0 fs-5">xxxxx, India</p>
                 </div>
             </div>
+
+            <p class="mt-5 mb-0 fs-4 fw-semibold">- CALL US FOR PRICING -</p>
         </div>
     </div>
     <div id="mainContainer" class="container rounded-4 my-4 shadow">

@@ -91,6 +91,8 @@
                         aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                         aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
                 </div>
                 <div class="carousel-inner rounded-4">
                     <div class="carousel-item active">
@@ -119,6 +121,12 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Moray Plains</h5>
                             <p>The Moray Plains in Ladakh are vast, high-altitude desert plains, surrounded by dramatic mountains and stunning landscapes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/gallery-5.jpeg" class="d-block w-100 galleryImg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://photos.app.goo.gl/H9dA49Bw4hUvgbBM9" target="_blank"><button class="btn btn-primary px-3 py-2 my-3 fs-5">View More</button></a>
                         </div>
                     </div>
                 </div>
